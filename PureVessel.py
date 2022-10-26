@@ -8,7 +8,7 @@ w = Window(enforce_window_limits=False)
 
 
 time = 0
-with open(dirname(__file__) + '/fastest_time_sealedvessel.txt', 'r') as file:
+with open(dirname(__file__) + '/fastest_time_purevessel.txt', 'r') as file:
     fastest_time = int(file.readline())
 
 
